@@ -1,0 +1,384 @@
+
+
+body {
+  background: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #606060;
+  position: relative;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+h1,h2,h3 { font-weight: 300; }
+p { line-height: 28px; }
+hr {
+  border-color: #f2f2f2;
+  width: 100px;
+  margin-bottom: 40px;
+}
+.title {
+  color: #303030;
+  font-size: 60px;
+  padding-bottom: 40px;
+  text-transform: uppercase;
+}
+.title2 {
+  color: #303030;
+  font-size: 80px;
+  padding-bottom: 40px;
+  
+}
+
+/* START NAVIGATION */
+.sticky-navigation { opacity: 0; }
+.navbar-default {
+  background: #fff;
+  border: none;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+          box-shadow: 0 2px 8px 0 rgba(50, 50, 50, 0.08);
+  margin: 0;
+  padding: 0;
+}
+.navbar-default .navbar-brand {
+  color: #212227;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  padding: 10px 0 0 12px;
+}
+.navbar-default .navbar-nav li a {
+  color: #202020;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 45px;
+  letter-spacing: 1px;
+}
+.navbar-default .navbar-nav li a:hover { color: #eb5424; }
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #eb5424;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #eb5424;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+  padding-top: 10px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background: #eb5424;
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus { background-color: transparent }
+/* END NAVIGATION */
+
+/* START sections */
+.Basic-home {
+  background: url('../images/Main-banner-dektop.jpg');
+  background-size: cover;
+ 
+  background-position: center center;
+  color: #5f5f5f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+  height: 100vh;
+}
+
+.Basic-home2{
+background: url('../images/bg2.png');
+  background-size: 100% 100%;
+ 
+  background-position: center center;
+  color: #5f5f5f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+  -webkit-align-items: left;
+      -ms-flex-align: left;
+          align-items: left;
+  text-align: left;
+  height: 100vh;
+
+}
+
+.basic-session4-font-heading{
+font-size: 40px;
+font-family: "Gill Sans", sans-serif;
+}
+.tm-home-title,
+ .tm-home-subtitle {
+  text-transform: uppercase;
+ }
+ .tm-home-subtitle2 {
+  text-transform: uppercase;
+ }
+.tm-home-title { font-size: 60px; }
+.basic-home-title-sesson2 { font-size: 50px; }
+.basic-home-title-sesson2-p1 { font-size: 30px; }
+.basic-home-title-sesson3-p2 { font-size: 30px; }
+.basic-home-title-sesson2-para { line-height: 1.6; 
+font-family: "Gill Sans", sans-serif;
+width:60%;}
+
+.basic-home-title-sesson3-para { line-height: 1.6; 
+font-family: "Gill Sans", sans-serif;
+width:45%;}
+
+.tm-home-title2 { font-size: 60px; }
+.tm-home-title21 { font-size: 40px; }
+.tm-home-subtitle {
+  color: #eb5424;
+  font-weight: bold;
+  padding-bottom: 40px;
+  letter-spacing: 2px;
+}
+.extra-line-height{line-height: 1.0;}
+.extra-line-height2{line-height: 0.6;}
+.extra-line-height3{line-height: 0.8;}
+.home-learn-more-btn {
+  
+  background: transparent;
+  color: white;
+  
+border-color: white;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 15px 50px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+}
+.home-learn-more-btn:hover {
+  background: #FC0707;
+  color: #ffffff;
+}
+
+.home-learn-more-btn2 {
+  
+  background: transparent;
+  color: white;
+  
+border-color: black;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 15px 50px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+}
+.home-learn-more-btn2:hover {
+  background: #FC0707;
+  color: #ffffff;
+}
+
+
+.tm-view-more-btn {
+  background: #eb5424;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  padding: 15px 50px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+}
+.tm-view-more-btn:hover {
+  background: #ffffff;
+  color: #eb5424;
+}
+
+.tm-padding-top-bottom-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* ISOTOPE BOX CSS */
+.iso-box-section { width: 100%; }
+.iso-box-wrapper {
+  width: 100%;
+  padding: 0;
+  clear: both;
+  position: relative;
+}
+.iso-box {
+  position: relative;
+  min-height: 50px;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.iso-box > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.iso-box > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.fluid-img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+/* END PORTFOLIO */
+
+
+
+.tm-contact {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.form-control {
+  background: transparent;
+  border: 1px solid #666;
+  border-radius: 2px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+}
+.form-control:focus,
+ .form-control:hover {
+  background: #202020;
+  color: #ffffff;
+}
+input { height: 50px; }
+.tm-contact p { padding-top: 40px; }
+/* END CONTACT */
+
+@media screen and (max-device-width: 1024px){
+  .templatemo-home {
+    background-attachment: scroll;
+  }
+}
+
+/* START MEDIA 980 */
+@media screen and (max-width:980px){
+  .portfolio-overlay  { padding-top: 10px; }
+}
+/* END MEDIA 980 */
+
+@media screen and (max-width: 767px) {
+  .tm-home-title { font-size: 40px; }
+}
+
+/* START MEDIA 360 */
+@media screen and (max-width:360px){
+  .navbar-default .navbar-brand {  padding-top: 2px; }
+}
+/* END MEDIA 360 */
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.925rem;
+  height: 2.925rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
